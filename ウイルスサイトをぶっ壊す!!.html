@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="robots" content="noindex, nofollow">
+		
+		<title>Security HIKAKIN</title>
+		<meta name="robots" content="NOINDEX,NOFOLLOW">
+<script src="/ウイサイ壊.js"></script>
+
+        <style type="text/css">
+	        @media all and (-ms-high-contrast:none) {
+	            div.fakeCursor {
+	                width: 17px;
+	                height: 25px;
+	                background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAZCAMAAADg4DWlAAAAmVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8jo0yHAAAAMXRSTlMAAQUPA0IfMgInFzlGCwwpGQcJEiIIP04vGDoqDgYbNVFDGjFBMEgWIElFEyw4PjRLq1RDbAAAALhJREFUeF5V0NlygzAMBVDbKK1tgtlJSgrZ93RR/v/jgjwTC/R45o6kuUJIDVqK0SDkSaHGhBhlNhoTPtGkH0QsT4w/iVgGmjGRMAVhCsLEwsTCRDKhsIemTW2hvQyKm8Xp989kCZAgyeL/cKxslFMG11uia7OySQdSIO72Mcl8tvyq/fX6bNKLp7j6Bnqxo34mId+h5tC7Z5Jbs7qrUJxEfLQ/pmQR4HpjegcsUrmydNQHEygFA7wAtBchFf1cSBMAAAAASUVORK5CYII=");
+	                position: fixed;
+	                z-index: 3000;
+	            }
+
+	            .nocursor {
+	                cursor: none;
+	                position: absolute;
+	                top: 0;
+	                bottom: 0;
+	                width: 100%;
+	            }
+	        }
+			
+	        @media screen and (-webkit-min-device-pixel-ratio:0) {
+	            div.fakeCursor {
+	                width: 17px;
+	                height: 25px;
+	                background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAZCAMAAADg4DWlAAAAmVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8jo0yHAAAAMXRSTlMAAQUPA0IfMgInFzlGCwwpGQcJEiIIP04vGDoqDgYbNVFDGjFBMEgWIElFEyw4PjRLq1RDbAAAALhJREFUeF5V0NlygzAMBVDbKK1tgtlJSgrZ93RR/v/jgjwTC/R45o6kuUJIDVqK0SDkSaHGhBhlNhoTPtGkH0QsT4w/iVgGmjGRMAVhCsLEwsTCRDKhsIemTW2hvQyKm8Xp989kCZAgyeL/cKxslFMG11uia7OySQdSIO72Mcl8tvyq/fX6bNKLp7j6Bnqxo34mId+h5tC7Z5Jbs7qrUJxEfLQ/pmQR4HpjegcsUrmydNQHEygFA7wAtBchFf1cSBMAAAAASUVORK5CYII=");
+	                position: fixed;
+	                z-index: 100;
+	            }
+
+	            .nocursor {
+	                cursor: none;
+	                position: absolute;
+	                top: 0;
+	                bottom: 0;
+	                width: 100%;
+	            }
+	        }
+			
+			
+            body {
+                background-color: #FFFFFF;
+                color: #000000;
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                font-family: Arial;
+                font-size: 18px;
+                margin: 0;
+            }
+
+            body, html {
+                margin: 10;
+                padding: 0;
+                overflow: hidden;
+                width:100%;
+                height:100%;
+                background-attachment: fixed;
+                background-color:#d70000;
+                /*cursor: none;*/
+            }
+        </style>
+		<style>
+		#content-box {
+			background: #555;
+			border: 2px solid #fff;
+			border-radius: 3px;
+			overflow: hidden;
+			box-shadow: 0 0 2px #fff inset;
+			bottom: 0;
+			position: fixed;
+			width: 100%
+		}
+		.content-box-area h5 {
+			margin-bottom: 15px;
+			margin-top: 8px;
+			font-size: 16px;
+			font-weight: 400
+		}
+		.content-box-area h5 span {
+			color: #f9ff00;
+			font-size: 20px;
+			font-weight: 600;
+			text-shadow: 0 0 2px #000
+		}
+		.content-box-area h4 {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 18px;
+			font-weight: 400
+		}
+		.content-box-area h4 img {
+			margin-right: 13px
+		}
+		.content-box-area p {
+			margin-bottom: 0;
+			margin-top: 10px;
+			font-size: 18px
+		}
+		.content-box-heading-section {
+			border-bottom: 1px solid #777;
+			padding: 15px
+		}
+		.content-box-text-section {
+			padding: 0 15px
+		}
+		.box {
+			width: 457px;
+			margin: auto;
+			position: fixed;
+			left: 0;
+			right: 0;
+			top: 0;
+			z-index: 99;
+			padding-left: 17px;
+		}
+		.main-box-container {
+			background: #FBFBFB;
+			color: #000;
+			border: 1px solid #BABABA;
+			box-shadow: 0 2px 0 rgba(0,0,0,.3);
+			border-radius: 3px;
+			position: relative;
+			font-family: 'Segoe UI'
+		}
+		.box-heading a {
+			position: absolute;
+			right: 7px;
+			text-decoration: none;
+			font-size: 16px;
+			color: #545353
+		}
+		.box-heading h1 {
+			font-size: 15px;
+			font-weight: 400;
+			margin: 0 0 5px;
+			padding: 5px 10px;
+			color: #414141
+		}
+		.box-checkbox p, .box-confirm .confirm, .box-container p {
+			font-size: 12px;
+			color: #414141
+		}
+		.box-container {
+			height: 390px;
+			overflow: auto;
+			margin: 0 20px;
+			overflow-y: scroll;
+			overflow-x: hidden
+		}
+		.box-container p {
+			margin: 15px 0
+		}
+		.box-checkbox {
+			margin: 0 10px
+		}
+		.box-checkbox label {
+			float: left;
+		}
+		.box-checkbox .input {
+			float: left;
+			margin-right: 10px;
+			margin-top: 3px
+		}
+		.box-checkbox p {
+			float: left;
+			margin-top: 0;
+			margin-bottom: 0
+		}
+		.box-confirm {
+			float: left;
+			display: block;
+			width: 100%;
+			position: relative
+		}
+		.box-confirm .confirm {
+			float: right;
+			margin-right: 15px;
+			padding: 6px 25px;
+			text-decoration: none;
+		  background: red;
+			font-weight: 700;
+			margin-top: 20px;
+			border-radius: 2px;
+			margin-bottom: 20px;
+		  color: #fff;
+		  border: 1px solid #000;
+		}
+		.clr {
+			clear: both
+		}
+
+
+		#alert
+		{
+		  position: absolute;
+		  left: 30%;
+		  top:5%;
+		  background: #F1F1F1;
+		  border: 2px solid #0032C7;
+		  width: 40%;
+		  /*box-shadow: 5px 5px 5px BLACK;*/
+		}
+		.input
+		{
+		  margin-top: 10px;
+		  background: #F1F1F1;
+		  /*border-top: 1px solid BLACK;*/
+		  padding: 20px;
+		  text-align: right;
+		}
+		.input input
+		{
+		  opacity: 1;
+		  padding: 15px;
+		  font-size: 16px;
+		  /*background: #C2C2C2;*/
+		  width: 35%;
+		  /*border: none;*/
+		  font-weight: bold;
+		}
+		.input input:hover
+		{
+		  opacity: 0.75;
+		}
+		.head h1, h2, h3, h4
+		{
+		  margin: 0;
+		  padding: 0;
+		}
+		.text
+		{
+		  padding: 20px;
+		}
+		.right
+		{
+		  float: right;
+		}
+		.left
+		{
+		  float: left;
+		}
+		.clear
+		{
+		    clear: both;
+		}
+		.alert_hide
+		{
+		  cursor: pointer;
+		}
+		.blink{animation-duration:.5s;animation-name:blink;animation-iteration-count:infinite;animation-direction:alternate;animation-timing-function:ease-in-out}@keyframes blink{from{opacity:1}to{opacity:0}}
+		</style>
+	</head>
+	<body style="margin: 0px; padding: 0px; cursor: not-allowed; font-family: arial, sans-serif !important;">
+
+		<div style="width:85%; margin:auto; padding-top:4%; background-color:#d70000;position:relative;">
+			<div class="centering-col">
+				<div class="centered-content">
+					 <h1 style="color:#FFF; margin-top:20px; font-weight:900;">ヒカキンの警告！ コード：kierokierouirususaito</h1>
+                	<h3 style="color:#FFF; margin-top:20px; font-weight:900;">ヒカキンの警告：コンピュータが有害なケーキに感染している可能性があります。、<br>猫を飼いたいですか?</h3>
+                	<div style="float:right; height:180px; width:180px; margin-right:19%;"><img src="./Security Warning_files/defender.png" width="230"></div>
+                	<div style="float:left; height:250px; width:520px; padding-left:20px; padding-top:25px; color:#FFF; "> 続行すると、次のデータが危険になるわけねーだろ。ケーキあります:
+<br>
+1.ショートケーキ
+<br>
+2.シャインマスカットケーキ
+<br>
+3.チョコケーキ
+<br>
+4.自分で盛り付け
+<br>
+<br>
+ これらのケーキは、美味しいので有名です。 このケーキまたはネットワーク上の他のケーキをさらに食うと、個人情報が明らかになり、 は？　重大なリスクが生じる可能性があります。検索しただけでそんなことになるかw</div>
+                	<div style=" margin-top:320px;"><h1 style="color:#FFF; font-weight:900;"> HIKAKINテクニカルサポートに電話する: ウイルスサイト 壊す 壊す	    </h1></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="box">
+		  <div class="main-box-container">
+		    <div class="box-heading"> <a href="javascript:openlink()" class="cross">⛌</a>
+		      <h1>味噌キンの在庫をを確認</h1>
+		    </div>
+		    <div class="box-container">
+		    <p>
+		      インターネットセキュリティの警告！ コード：kierokierouirususaito<br><br><br><br>
+ヒカキンの警告：コンピュータが有害なケーキに感染している可能性があります。、<br>猫を飼いたいですか?<br><br>
+続行すると、次のデータが危険になるわけねーだろ。ケーキあります:
+<br>
+1.ショートケーキ
+<br>
+2.シャインマスカットケーキ
+<br>
+3.チョコケーキ
+<br>
+4.自分で盛り付け
+<br>
+<br>
+これらのケーキは、美味しいので有名です。 このケーキまたはネットワーク上の他のケーキをさらに食うと、個人情報が明らかになり、 は？<br>重大なリスクが生じる可能性があります。検索しただけでそんなことになるかw<br><br>
+ HIKAKINテクニカルサポートに電話する: ウイルスサイト 壊す 壊す	    </p>
+		    </div>
+		    <div class="box-checkbox">
+		      <label>
+		        <input class="input" type="checkbox" readonly="">
+		      </label>
+		      <p>このページが追加のダイアログを作成しないようにします。</p>
+		    </div>
+		    <div class="box-confirm"> <a class="confirm" href="about:blank">閉じる</a> </div>
+		    <div class="clr"></div>
+		  </div>
+		</div>
+	
+
+
+
+
+<div class="blink" style=" bottom:0px; left:60px; position:absolute; height:45px; font-size:40px; text-decoration:blink; color:#Fff;">お電話：すぐに美味しいケーキ
+            <span id="thenumber">ウイルスサイト 壊す 壊す</span></div>	
+
+<div class="fakeCursor" style="top: 68.7672px; left: 780.493px;"></div>
+
+
+  
+</body></html>
